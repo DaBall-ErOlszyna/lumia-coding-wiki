@@ -30,6 +30,7 @@ After that, Visual Studio Installer should pop up. You need to take these steps 
 After that, you can start Visual Studio 2017. After some time you may get a prompt about needing a **Product key**. You can get one at https://gist.github.com/avazak/e893b6c3811b84347ba68f7457007207. Thank you Avazak!
 
 >## Setting up debugging for your phone {#debugging}
+
 1. Go to settings of your Windows 10 Phone.
 2. Go to Updates and Security
 3. Click on For developers
@@ -38,4 +39,4 @@ After that, you can start Visual Studio 2017. After some time you may get a prom
 
 > After you create a project...
 
-On top you can see the "Start debugging" button. On the left of it there's probably "Debug | x86", you need to change it to ARM instead of x86 or x64. Then the "Start debugging" button should be set to Device, if it isn't, then set it to Device, and configure your Windows Phone.
+On top you can see the "Start debugging" button. On the left of it there's probably x86 or x64 you need to change it to ARM instead. Then the "Start debugging" button should be set to Device, if it isn't, then set it to Device, and configure your Windows Phone.
